@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #173A4E;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    background-color: #E0E0E0;
+    color: #173A4E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #285C73;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.edit {
+    background-color: #2196f3;
+}
+
+.hapus {
+    background-color: #f44336;
+}
+
+.simpan {
+    background-color: #21f367; /* Green color for Save button */
+}
+
+.table-container {
+    background-color: #285C73;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #285C73;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+    background-color: #1E4658;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-small.edit {
+    background-color: #2196f3;
+}
+
+.btn-small.hapus {
+    background-color: #f44336;
+}
+
+.btn-small.simpan {
+    background-color: #21f367; 
+}

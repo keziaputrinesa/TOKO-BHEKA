@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #25475e; /* Latar belakang warna biru gelap */
+    display: flex;
+    justify-content: flex-start; /* Semua elemen berada di awal secara horizontal */
+    align-items: flex-start; /* Semua elemen berada di awal secara vertikal */
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Mengatur kontainer dalam kolom agar h1 dan menu sejajar vertikal */
+    align-items: flex-start; /* Semua elemen berada di awal secara vertikal (sejajar kiri) */
+    width: 100%; /* Memastikan lebar kontainer sesuai dengan halaman */
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px; /* Tambahkan jarak antara heading dan menu */
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column; /* Mengatur item menu secara vertikal */
+    align-items: flex-start; /* Menyusun item menu di sebelah kiri */
+    gap: 20px; /* Memberikan jarak antar tombol */
+}
+
+.menu-item {
+    background-color: #3d697a; /* Warna tombol biru tua */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 300px;
+    transition: background-color 0.3s;
+    text-align: left; /* Mengatur teks di dalam tombol menjadi rata kiri */
+}
+
+.menu-item:hover {
+    background-color: #2f5868; /* Warna berubah saat hover */
+}
